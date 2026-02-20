@@ -13,12 +13,11 @@ const NoteFromFaisal = () => {
             <h3 className="mt-4 text-primary text-4xl">
               &quot;Humans Ignore Robots.&quot;
             </h3>
-            [cite_start]
+
             <p className="italic text-[#333]">
-              &quot;TheBrands that win will be the ones that sound alive[cite:
-              77]. [cite_start]I run lean, think deeply about your buyers, and
-              treat every send like it’s from a real person—because it is[cite:
-              19].&quot;
+              &quot;The Brands that win will be the ones that sound alive. I run
+              lean, think deeply about your buyers, and treat every send like
+              it’s from a real person. Because they are.&quot;
             </p>
           </div>
         </div>

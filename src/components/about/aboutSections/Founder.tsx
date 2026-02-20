@@ -147,23 +147,27 @@ const FounderSection = () => {
 
         <div>
           <h2 className="text-[3rem] text-start font-black tracking-[-0.04em] mb-6">
-            MD. Faisal Ahmed
+            Faisal Ahmed
           </h2>
 
           <p className="text-[1.1rem] text-muted leading-[1.8] font-medium mb-12">
-            I didn’t start HashtagFaisal because I thought the world needed
-            another marketing agency. I started it because I saw SaaS founders
-            and agency owners getting burned by &quot;volume-first&quot; systems
-            that destroyed their reputations.
-            <br />
-            <br />I spent 5 years in the trenches, working with over 100 clients
-            and earning $100K+ on Upwork by strictly following one rule:
+            I spent 5 years in the trenches, working with over 100 clients and
+            earning $100K+ on Upwork by strictly following one rule:
             <strong>If it’s not relevant, don’t send it.</strong>
             <br />
             <br />
-            Today, I build &quot;Humanoid&quot; systems. Half machine for
-            analytical rigor, half human for emotional resonance. That is the
-            only way to win in a a post-AI world.
+            Over the last 5 years, I&apos;ve worked with 100+ clients and earned
+            $400K+ (as a freelancer) on Upwork and Fiverr by following one
+            simple rule: If it doesn&apos;t sound like a person, don&apos;t sent
+            it, just don&apos;t!
+            <br />
+            <br />
+            In 2025, I left freelancing, and started{" "}
+            <span className="font-bold">HashtagFaisal</span> using my decade of
+            experience.
+            <br /> <br />I didn’t start this to be just another agency. I
+            started it because I watched lazy &apos;AI automation&apos; destroy
+            the reputations of good companies.
           </p>
 
           <div className="grid sm:grid-cols-3 gap-6">
@@ -173,9 +177,11 @@ const FounderSection = () => {
                     shadow-sm"
             >
               <span className="block text-[2rem] font-black text-purple">
-                $100K+
+                $1.7M+
               </span>
-              <p className="text-muted font-medium mt-2">Total Revenue Proof</p>
+              <p className="text-muted font-medium mt-2">
+                Total Revenue Generated
+              </p>
             </div>
 
             <div

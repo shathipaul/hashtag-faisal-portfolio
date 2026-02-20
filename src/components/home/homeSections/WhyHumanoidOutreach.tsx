@@ -6,31 +6,33 @@ const WhyHumanoidOutreach = () => {
           <span className="eyebrow bg-mutedPurple text-purple">
             The Paradigm
           </span>
-          <h2>Why Humanoid Outreach?</h2>
+          <h2>
+            Why <span className="text-green">Humanoid</span> Outreach?
+          </h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10">
           <div className="bg-white p-7 rounded-xl transition-all duration-500 hover:-translate-y-1 border-t-8 border-purple">
             <h3 className="text-purple">Half-Machine</h3>
-            [cite_start]
+
             <p>
               We use AI for backend efficiency, data analysis, and structural
-              drafting[cite: 66, 68].
+              drafting.
             </p>
           </div>
           <div className="bg-white p-7 rounded-xl transition-all duration-500 hover:-translate-y-1 border-t-8 border-orange">
             <h3 className="text-orange">Half-Human</h3>
-            [cite_start]
+
             <p>
               Every message is human-polished to ensure tone, empathy, and
-              nuance[cite: 69, 71].
+              nuance.
             </p>
           </div>
           <div className="bg-white p-7 rounded-xl transition-all duration-500 hover:-translate-y-1 border-t-8 border-blue">
             <h3 className="text-blue">Fully Accountable</h3>
-            [cite_start]
+
             <p>
               A real person owns every send, ensuring respectful, compliant
-              outreach[cite: 73, 74].
+              outreach.
             </p>
           </div>
         </div>

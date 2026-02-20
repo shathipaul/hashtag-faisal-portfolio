@@ -57,7 +57,7 @@ const Navbar = () => {
                 <li key={data.id}>
                   <Link
                     href={data.link}
-                    className={`text-muted hover:text-muted/80 transition-all duration-500 ${
+                    className={`text-muted text-sm tracking-wider uppercase hover:text-muted/80 transition-all duration-500 ${
                       pathname === data.link ? "font-bold " : "font-semibold"
                     }`}
                   >

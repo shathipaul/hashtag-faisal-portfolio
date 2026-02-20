@@ -25,9 +25,9 @@ const BannerSection = () => {
               max-w-[850px] mx-auto font-bold 
               animate-fadeInUp"
         >
-          Most agencies want your retainer. I want your results. We aren&apos;t
-          here to send emails; we are here to engineer high-ticket conversations
-          that scale your freedom.
+          Agencies sell retainers. I sell booked meetings. <br /> No long-term
+          contracts, no retainers. Just human outreach that gets qualified
+          meetings on your calendar.
         </p>
       </div>
     </section>

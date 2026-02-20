@@ -13,11 +13,11 @@ h2,
 h3,
 h4 {
   font-weight: 800;
-  letter-spacing: -0.04em;
+
   color: #0f172a;
 }
 h1 {
-  font-size: clamp(3rem, 6vw, 5.5rem);
+  font-size: clamp(2.25rem, 5vw, 5rem);
   line-height: 1.05;
   margin-bottom: 25px;
 }
@@ -25,6 +25,7 @@ h2 {
   font-size: clamp(2.5rem, 4vw, 3.5rem);
   margin-bottom: 15px;
   text-align: center;
+  text-transform: uppercase;
 }
 h3 {
   font-size: 1.8rem;
@@ -75,7 +76,7 @@ p {
 
 @media (max-width: 768px) {
   h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   h2 {
     font-size: 2.2rem;

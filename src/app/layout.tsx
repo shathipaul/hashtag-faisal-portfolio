@@ -1,5 +1,9 @@
 import type { Metadata } from "next";
-import { Plus_Jakarta_Sans } from "next/font/google";
+import {
+  Plus_Jakarta_Sans,
+  Playfair_Display,
+  Unbounded,
+} from "next/font/google";
 import "./globals.css";
 
 const plusJakartaSans = Plus_Jakarta_Sans({
@@ -8,10 +12,15 @@ const plusJakartaSans = Plus_Jakarta_Sans({
   weight: ["400", "500", "600", "700", "800"],
 });
 
-// const geistMono = Geist_Mono({
-//   variable: "--font-geist-mono",
-//   subsets: ["latin"],
-// });
+export const playfairDisplay = Playfair_Display({
+  variable: "--font-playfair-display",
+  subsets: ["latin"],
+});
+export const bitcountGridDouble = Unbounded({
+  variable: "--font-unbounded",
+  subsets: ["latin"],
+  weight: ["600"],
+});
 
 export const metadata: Metadata = {
   title: "HASHTAG FAISAL | The Humanoid Email Marketer",

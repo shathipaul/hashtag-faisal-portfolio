@@ -10,12 +10,12 @@ const HowItWorks = () => {
           <h1 className="text-[4rem] max-[850px]:text-[3rem] font-extrabold tracking-[-0.05em] leading-none">
             Stop Working For Your Leads.
             <br />
-            Make Your Leads Work For You.
+            <span className="text-purple">Make Your Leads Work For You.</span>
           </h1>
 
           <p className="text-[1.5rem] text-muted mt-5 max-w-[800px] mx-auto">
             Most people have a &quot;Hope and Pray&quot; model. We have a
-            machine. This is exactly how we build it, one step at a time.
+            machine. <br /> This is exactly how we build it, one step at a time.
           </p>
         </div>
 
@@ -413,7 +413,8 @@ const HowItWorks = () => {
             </a>
 
             <div className="mt-[50px] opacity-50 text-[1rem] italic">
-              If you can&apos;t justify the investment to solve a 60k leak...
+              I stole that &quot;incompetence tax&quot; thing from The Mighty
+              ALEX Hormozi by the way :D
             </div>
           </div>
         </div>

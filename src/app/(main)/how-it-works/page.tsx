@@ -1,4 +1,4 @@
-import HowItWorks from "@/app/components/howItWorks/HowItWorks";
+import HowItWorks from "@/components/howItWorks/HowItWorks";
 
 const howItWorks = () => {
   return <HowItWorks />;
