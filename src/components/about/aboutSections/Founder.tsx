@@ -3,9 +3,9 @@ import faisal from "@/assets/about/IMG_20260131_044826.jpg";
 
 const FounderSection = () => {
   return (
-    <section className="container mx-auto py-20" id="founder">
+    <section className="container mx-auto px-6 py-10 md:py-20" id="founder">
       <span
-        className="block text-2xl font-extrabold uppercase 
+        className="block text-xl md:text-2xl font-extrabold uppercase 
                    text-purple text-center mb-5"
       >
         FOUNDER & OPERATOR
@@ -129,13 +129,13 @@ const FounderSection = () => {
         </div>
       </div> */}
 
-      <div className="grid lg:grid-cols-2 gap-[80px] items-center">
+      <div className="grid lg:grid-cols-2 gap-10 items-center">
         <div
           className="relative bg-mutedBlue border-blue rounded-[30px] 
                 p-[20px] flex items-center justify-center 
                 text-center overflow-hidden"
         >
-          <div className="w-full h-full object-cover">
+          <div className="w-full lg:max-h-[600px] h-full object-cover">
             <Image
               src={faisal}
               alt=""
@@ -146,11 +146,9 @@ const FounderSection = () => {
         </div>
 
         <div>
-          <h2 className="text-[3rem] text-start font-black tracking-[-0.04em] mb-6">
-            Faisal Ahmed
-          </h2>
+          <h2 className=" mb-6">Faisal Ahmed</h2>
 
-          <p className="text-[1.1rem] text-muted leading-[1.8] font-medium mb-12">
+          <p className="mb-12">
             I spent 5 years in the trenches, working with over 100 clients and
             earning $100K+ on Upwork by strictly following one rule:
             <strong>If it’s not relevant, don’t send it.</strong>

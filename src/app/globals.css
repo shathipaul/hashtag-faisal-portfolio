@@ -22,7 +22,7 @@ h1 {
   margin-bottom: 25px;
 }
 h2 {
-  font-size: clamp(2.5rem, 4vw, 3.5rem);
+  font-size: clamp(2rem, 4vw, 3.5rem);
   margin-bottom: 15px;
   text-align: center;
   text-transform: uppercase;
@@ -30,6 +30,9 @@ h2 {
 h3 {
   font-size: 1.8rem;
   margin-bottom: 5px;
+}
+h4 {
+  font-size: 1.5rem;
 }
 p {
   color: #475569;
@@ -79,7 +82,7 @@ p {
     font-size: 2.5rem;
   }
   h2 {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
   p {
     font-size: 1rem;
@@ -112,7 +115,7 @@ p {
 }
 
 .hard-sell-gradient-border {
-  border: 4px solid transparent;
+  /* border: 4px solid transparent; */
   background-image:
     linear-gradient(white, white),
     linear-gradient(to right, #a975ff, #8cd9a3, #ff9e69);

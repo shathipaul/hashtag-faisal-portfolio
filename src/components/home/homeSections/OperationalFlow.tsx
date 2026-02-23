@@ -1,6 +1,6 @@
 const OperationalFlow = () => {
   return (
-    <section id="system" className="py-20">
+    <section id="system" className="py-12 md:py-16 xl:py-20 bg-mutedOrange">
       <div className="container max-auto px-6">
         <div className="text-center">
           <span className="eyebrow bg-mutedGreen text-green">The System</span>

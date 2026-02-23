@@ -1,6 +1,6 @@
 const WhoNeedsHumanoid = () => {
   return (
-    <section className="py-20 bg-mutedGreen">
+    <section className="py-12 md:py-16 xl:py-20 bg-mutedGreen">
       <div className="container mx-auto px-6">
         <div className="text-center">
           <span className="eyebrow bg-mutedBlue text-blue">

@@ -1,6 +1,6 @@
 const TransparentAligned = () => {
   return (
-    <section id="services" className="py-20 bg-[#F0F0F0]">
+    <section id="services" className="py-12 md:py-16 xl:py-20 bg-[#F0F0F0]">
       <div className="container mx-auto px-6">
         <div className="text-center">
           <span className="eyebrow bg-mutedOrange text-orange">Pricing</span>

@@ -1,6 +1,6 @@
 const RealHumanFeedback = () => {
   return (
-    <section id="reviews" className="py-20">
+    <section id="reviews" className="py-12 md:py-16 xl:py-20">
       <div className="container mx-auto px-6">
         <div className="text-center">
           <span className="eyebrow bg-mutedPurple text-purple">

@@ -1,8 +1,6 @@
-import React from "react";
-
 const VocabularyShift = () => {
   return (
-    <section className="py-20">
+    <section className="py-12 md:py-16 xl:py-20">
       <div className="container mx-auto px-6">
         <h2 className="text-center">The Vocabulary Shift</h2>
         <div className="overflow-x-auto mt-10 rounded-xl border-2 border-[#edf2f7]">

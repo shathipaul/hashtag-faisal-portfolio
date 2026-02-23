@@ -1,5 +1,5 @@
 import { bitcountGridDouble } from "@/app/layout";
-import { IoMdMail } from "react-icons/io";
+import PrimaryButton from "@/components/common/PrimaryButton";
 
 const Banner = () => {
   return (
@@ -25,20 +25,7 @@ const Banner = () => {
           We do everything from setup to meeting bookings. You join the meeting
           and close.
         </p>
-        <div className="w-[200px] md:w-[400px] mx-auto">
-          <a
-            href="#contact"
-            className="uppercase flex items-center justify-center gap-2  bg-purple text-white px-4 md:px-16 py-4 md:py-6 rounded-[20px]
-                  font-extrabold text-lg md:text-[1.5rem]
-                  shadow-[0_20px_40px_rgba(169,117,255,0.4)]
-                  animate-pulseGlow
-                  transition-all duration-300
-                  hover:-translate-y-2 hover:scale-105 hover:brightness-110"
-          >
-            <IoMdMail />
-            Book a free call
-          </a>
-        </div>
+        <PrimaryButton />
         <p className="mt-[25px] text-sm  md:text-base text-muted">
           Trusted by <span className="text-blue">Agencies</span>,{" "}
           <span className="text-green">SaaS</span> &{" "}

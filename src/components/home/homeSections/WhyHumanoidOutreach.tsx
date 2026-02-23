@@ -1,6 +1,6 @@
 const WhyHumanoidOutreach = () => {
   return (
-    <section className="py-20 bg-[#F0F0F0]">
+    <section className="py-12 md:py-16 xl:py-20">
       <div className="container mx-auto px-6">
         <div className="text-center">
           <span className="eyebrow bg-mutedPurple text-purple">

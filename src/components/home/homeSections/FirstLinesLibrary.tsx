@@ -1,6 +1,6 @@
 const FirstLinesLibrary = () => {
   return (
-    <section className="py-20">
+    <section className="py-12 md:py-16 xl:py-20">
       <div className="container max-auto px-6">
         <div className="text-center">
           <span className="eyebrow bg-mutedBlue text-blue">
