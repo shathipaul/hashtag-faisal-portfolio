@@ -36,6 +36,7 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
   const menuData = [
+    { id: "home", name: "Home", link: "/" },
     { id: "how-it-works", name: "How it works", link: "/how-it-works" },
     { id: "about", name: "About", link: "/about" },
   ];
@@ -82,7 +83,7 @@ const Navbar = () => {
             <Hamburger
               size={24}
               duration={0.4}
-              color="#375A36"
+              color="#A975FF"
               easing="ease-in"
               toggled={isOpen}
               toggle={setOpen}
@@ -117,7 +118,7 @@ const Navbar = () => {
                 // className="text-base font-medium hover:font-semibold focus:outline-none focus:ring-2 focus:ring-primary"
                 className={`text-muted ${
                   pathname === data.link
-                    ? "font-bold border-b-2"
+                    ? "font-bold border-b-2 border-purple"
                     : "font-semibold"
                 }`}
                 onClick={() => setOpen(false)}
