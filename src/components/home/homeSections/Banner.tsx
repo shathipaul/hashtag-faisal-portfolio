@@ -22,8 +22,8 @@ const Banner = () => {
         </h1>
         <p className="text-center !mb-0">DONE-FOR-YOU service!</p>
         <p className="max-w-[800px] mx-auto mb-[30px]">
-          We do everything from setup to meeting bookings. You join the meeting
-          and close.
+          We do everything from setup to meeting bookings. You join the
+          meeting&apos;s and close.
         </p>
         <PrimaryButton />
         <p className="mt-[25px] text-sm  md:text-base text-muted">

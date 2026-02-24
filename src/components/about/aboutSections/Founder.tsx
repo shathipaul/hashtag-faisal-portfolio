@@ -177,7 +177,7 @@ const FounderSection = () => {
               <span className="block text-[2rem] font-black text-purple">
                 $1.7M+
               </span>
-              <p className="text-muted font-medium mt-2">
+              <p className="text-muted text-sm xl:text-lg font-medium mt-2">
                 Total Revenue Generated
               </p>
             </div>
@@ -190,7 +190,9 @@ const FounderSection = () => {
               <span className="block text-[2rem] font-black text-green">
                 100+
               </span>
-              <p className="text-muted font-medium mt-2">Successful Clients</p>
+              <p className="text-muted text-sm xl:text-lg font-medium mt-2">
+                Successful Clients
+              </p>
             </div>
 
             <div
@@ -201,7 +203,7 @@ const FounderSection = () => {
               <span className="block text-[2rem] font-black text-orange">
                 99%
               </span>
-              <p className="text-muted font-medium mt-2">
+              <p className="text-muted text-sm xl:text-lg font-medium mt-2">
                 Inbox Deliverability
               </p>
             </div>

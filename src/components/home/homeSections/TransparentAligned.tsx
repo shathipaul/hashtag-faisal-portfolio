@@ -37,10 +37,10 @@ const TransparentAligned = () => {
             <h3 className="text-green">Pay-Per-Meeting</h3>
 
             <p>Only pay for qualified meetings we book.</p>
-            <div className="text-[2.5rem] font-bold my-3 text-primary -tracking-[1px]">
-              $250{" "}
+            <div className="my-3 text-primary -tracking-[1px]">
+              <span className="text-[2.5rem] font-bold">$250</span>{" "}
               <span className="text-base font-semibold text-muted opacity-85">
-                / Meeting
+                / Meeting + 10% Revenue Share
               </span>
             </div>
             <ul className="list-none text-muted mb-6">
@@ -51,7 +51,6 @@ const TransparentAligned = () => {
               <li>
                 ✓ <strong>Quality</strong> over Volume
               </li>
-              <li>✓ 10% Revenue Share</li>
             </ul>
           </div>
 

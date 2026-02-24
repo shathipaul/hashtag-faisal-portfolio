@@ -29,7 +29,7 @@ const RealHumanFeedback = () => {
             </p>
           </div>
 
-          <div className="p-6 rounded-xl  bg-white border-2 border-purple hover:border-blue hover:bg-mutedBlue transition-all duration-500 ">
+          <div className="p-6 rounded-xl  bg-white border-2 border-[#f1f5f9] hover:border-blue hover:bg-mutedBlue transition-all duration-500 ">
             <div className="mb-4">
               <span className="text-[#fbbf24] text-lg">★★★★★</span>
               <span className="block text-xs font-bold text-muted uppercase mt-1">

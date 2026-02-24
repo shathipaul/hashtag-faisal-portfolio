@@ -116,7 +116,7 @@ const Navbar = () => {
                 key={data.id}
                 href={data.link}
                 // className="text-base font-medium hover:font-semibold focus:outline-none focus:ring-2 focus:ring-primary"
-                className={`text-muted ${
+                className={`text-muted uppercase ${
                   pathname === data.link
                     ? "font-bold border-b-2 border-purple"
                     : "font-semibold"

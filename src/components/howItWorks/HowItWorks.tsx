@@ -407,7 +407,7 @@ const HowItWorks = () => {
             </a> */}
             <PrimaryButton />
             <div className="mt-[50px] opacity-50 text-[1rem] italic">
-              I stole that &quot;incompetence tax&quot; thing from The Mighty
+              We stole that &quot;incompetence tax&quot; thing from The Mighty
               ALEX Hormozi by the way :D
             </div>
           </div>
