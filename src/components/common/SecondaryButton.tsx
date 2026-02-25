@@ -1,7 +1,10 @@
 const SecondaryButton = () => {
   return (
     <a
-      href="#_"
+      target="_blank"
+      href={
+        "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2-t5ESqE34Q97sS5yunZLXkoZbaoOIZxzhfUfwe_6iG93621vkoVi8Ola36Q18wJhH_R4xm1ro"
+      }
       className="relative inline-flex items-center justify-center p-4 px-6 py-2 overflow-hidden font-medium text-purple transition duration-500 ease-out border-2 border-purple rounded-[10px] shadow-md group"
     >
       <span className="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-500 -translate-x-full bg-purple group-hover:translate-x-0 ease">
