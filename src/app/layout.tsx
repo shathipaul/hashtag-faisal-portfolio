@@ -35,7 +35,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${plusJakartaSans.className} bg-secondary text-primary leading-normal`}
+        className={`${plusJakartaSans.className} bg-secondary text-primary leading-normal scroll-smooth`}
       >
         {children}
       </body>

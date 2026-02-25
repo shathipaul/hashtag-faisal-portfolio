@@ -4,7 +4,11 @@ import logo from "@/assets/logo/logo.png";
 
 const NavLogo = () => {
   return (
-    <Link href="/" className="w-14 lg:w-16" aria-label="Go to homepage">
+    <Link
+      href="/"
+      className="w-14 lg:w-16 decoration-0"
+      aria-label="Go to homepage"
+    >
       <Image
         src={logo}
         alt="Faisal Ahmed Logo - A stylized 'F' in a triangle, representing Faisal Ahmed's personal brand."

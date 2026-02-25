@@ -5,6 +5,8 @@ import NavLogo from "./NavLogo";
 import Hamburger from "hamburger-react";
 import { useEffect, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
+import { FaArrowRightLong } from "react-icons/fa6";
+import SecondaryButton from "@/components/common/SecondaryButton";
 
 const Navbar = () => {
   const pathname = usePathname();
@@ -51,23 +53,25 @@ const Navbar = () => {
       >
         <div className="container flex justify-between items-center px-6 py-3">
           <NavLogo />
-
-          <nav aria-label="Main navigation">
-            <ul className={`flex gap-6 ${scrolled ? "bg-transparent" : ""}`}>
-              {menuData.map((data) => (
-                <li key={data.id}>
-                  <Link
-                    href={data.link}
-                    className={`text-muted text-sm tracking-wider uppercase hover:text-muted/80 transition-all duration-500 ${
-                      pathname === data.link ? "font-bold " : "font-semibold"
-                    }`}
-                  >
-                    {data.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </nav>
+          <div className="flex items-center gap-6">
+            <nav aria-label="Main navigation">
+              <ul className={`flex gap-6 ${scrolled ? "bg-transparent" : ""}`}>
+                {menuData.map((data) => (
+                  <li key={data.id}>
+                    <Link
+                      href={data.link}
+                      className={`text-muted text-sm tracking-wider uppercase hover:text-muted/80 transition-all duration-500 ${
+                        pathname === data.link ? "font-bold " : "font-semibold"
+                      }`}
+                    >
+                      {data.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+            <SecondaryButton />
+          </div>
         </div>
       </div>
 

@@ -1,9 +1,17 @@
+import Image from "next/image";
+import img from "@/assets/about/real01.png";
+
 const NoteFromFaisal = () => {
   return (
     <section id="about" className="py-12 md:py-16 xl:py-20 bg-mutedPurple">
       <div className="container mx-auto px-6">
         <div className="block grid-cols-1 md:flex items-center gap-10">
-          <div className="w-[120px] lg:w-[200px] h-[120px] lg:h-[200px] mb-8 md:mb-0 mx-auto bg-white rounded-[50%] flex-shrink-0 border-4 border-purple"></div>
+          <div
+            className="w-[160px] lg:w-[200px] h-[160px] lg:h-[200px] mb-8 md:mb-0 mx-auto 
+           rounded-[50%] flex-shrink-0 border-4 border-purple overflow-hidden"
+          >
+            <Image src={img} alt="" />
+          </div>
           <div className="text-center md:text-start">
             <span className="eyebrow bg-white text-purple">
               A Note from Faisal

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import faisal from "@/assets/about/IMG_20260131_044826.jpg";
+import faisal from "@/assets/about/faisal.png";
 
 const FounderSection = () => {
   return (
@@ -129,20 +129,18 @@ const FounderSection = () => {
         </div>
       </div> */}
 
-      <div className="grid lg:grid-cols-2 gap-10 items-center">
+      <div className="grid lg:grid-cols-2 gap-12 items-center">
         <div
           className="relative bg-mutedBlue border-blue rounded-[30px] 
                 p-[20px] flex items-center justify-center 
-                text-center overflow-hidden"
+                text-center overflow-hidden w-full md:w-2/3 lg:w-full lg:max-h-[600px] h-full object-cover mx-auto"
         >
-          <div className="w-full lg:max-h-[600px] h-full object-cover">
-            <Image
-              src={faisal}
-              alt=""
-              placeholder="blur"
-              className="w-full h-full object-cover"
-            />
-          </div>
+          <Image
+            src={faisal}
+            alt=""
+            placeholder="blur"
+            className="w-full h-full object-cover"
+          />
         </div>
 
         <div>
