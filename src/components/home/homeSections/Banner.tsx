@@ -4,7 +4,7 @@ import PrimaryButton from "@/components/common/PrimaryButton";
 const Banner = () => {
   return (
     <section className="text-center mx-auto px-4 flex justify-center items-center min-h-screen py-10 md:py-20">
-      <div className="text-center">
+      <div className="text-center animate-fadeInUp">
         <span className="eyebrow bg-white text-purple border-2 border-purple">
           The Humanoid Email Marketer
         </span>
