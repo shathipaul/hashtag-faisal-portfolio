@@ -3,9 +3,9 @@ import PrimaryButton from "@/components/common/PrimaryButton";
 
 const Banner = () => {
   return (
-    <section className="text-center mx-auto px-4 flex justify-center items-center min-h-screen py-10 md:py-20">
+    <section className="lg:max-h-[90vh] flex items-center justify-center px-4 py-10 mx-auto text-center md:py-20">
       <div className="text-center animate-fadeInUp">
-        <span className="eyebrow bg-white text-purple border-2 border-purple">
+        <span className="bg-white border-2 eyebrow text-purple border-purple">
           The Humanoid Email Marketer
         </span>
         <h1>
@@ -22,8 +22,8 @@ const Banner = () => {
         </h1>
         <p className="text-center !mb-0">DONE-FOR-YOU service!</p>
         <p className="max-w-[800px] mx-auto mb-[30px]">
-          We do everything from setup to meeting bookings. You join the
-          meeting&apos;s and close.
+          We do everything from setup to meeting bookings. You join the meetings
+          and close.
         </p>
         <PrimaryButton />
         <p className="mt-[25px] text-sm  md:text-base text-muted">

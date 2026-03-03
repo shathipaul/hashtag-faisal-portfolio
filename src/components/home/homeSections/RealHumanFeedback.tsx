@@ -1,7 +1,7 @@
 const RealHumanFeedback = () => {
   return (
     <section id="reviews" className="py-12 md:py-16 xl:py-20">
-      <div className="container mx-auto px-6">
+      <div className="container px-6 mx-auto">
         <div className="text-center">
           <span className="eyebrow bg-mutedPurple text-purple">
             Social Proof
@@ -14,11 +14,11 @@ const RealHumanFeedback = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10">
+        <div className="grid grid-cols-1 gap-5 mt-10 md:grid-cols-2 lg:grid-cols-3">
           <div className="p-6 rounded-xl  bg-white border-2 border-[#f1f5f9] hover:border-blue hover:bg-mutedBlue transition-all duration-500">
             <div className="mb-4">
               <span className="text-[#fbbf24] text-lg">★★★★★</span>
-              <span className="block text-xs font-bold text-muted uppercase mt-1">
+              <span className="block mt-1 text-xs font-bold uppercase text-muted">
                 March, 2024 • Shane Miller
               </span>
             </div>
@@ -32,8 +32,8 @@ const RealHumanFeedback = () => {
           <div className="p-6 rounded-xl  bg-white border-2 border-[#f1f5f9] hover:border-blue hover:bg-mutedBlue transition-all duration-500 ">
             <div className="mb-4">
               <span className="text-[#fbbf24] text-lg">★★★★★</span>
-              <span className="block text-xs font-bold text-muted uppercase mt-1">
-                March, 2025 • Upwork
+              <span className="block mt-1 text-xs font-bold uppercase text-muted">
+                March, 2025 • Erez Marchini
               </span>
             </div>
             <p className="text-base italic">
@@ -45,7 +45,7 @@ const RealHumanFeedback = () => {
           <div className="p-6 rounded-xl  bg-white border-2 border-[#f1f5f9] hover:border-blue hover:bg-mutedBlue transition-all duration-500">
             <div className="mb-4">
               <span className="text-[#fbbf24] text-lg">★★★★★</span>
-              <span className="block text-xs font-bold text-muted uppercase mt-1">
+              <span className="block mt-1 text-xs font-bold uppercase text-muted">
                 January, 2025 • Upwork
               </span>
             </div>
@@ -58,7 +58,7 @@ const RealHumanFeedback = () => {
           <div className="p-6 rounded-xl  bg-white border-2 border-[#f1f5f9] hover:border-blue hover:bg-mutedBlue transition-all duration-500">
             <div className="mb-4">
               <span className="text-[#fbbf24] text-lg">★★★★★</span>
-              <span className="block text-xs font-bold text-muted uppercase mt-1">
+              <span className="block mt-1 text-xs font-bold uppercase text-muted">
                 December, 2024 • Upwork
               </span>
             </div>
@@ -71,7 +71,7 @@ const RealHumanFeedback = () => {
           <div className="p-6 rounded-xl  bg-white border-2 border-[#f1f5f9] hover:border-blue hover:bg-mutedBlue transition-all duration-500">
             <div className="mb-4">
               <span className="text-[#fbbf24] text-lg">★★★★★</span>
-              <span className="block text-xs font-bold text-muted uppercase mt-1">
+              <span className="block mt-1 text-xs font-bold uppercase text-muted">
                 April, 2023 • Upwork
               </span>
             </div>
@@ -83,7 +83,7 @@ const RealHumanFeedback = () => {
           <div className="p-6 rounded-xl  bg-white border-2 border-[#f1f5f9] hover:border-blue hover:bg-mutedBlue transition-all duration-500">
             <div className="mb-4">
               <span className="text-[#fbbf24] text-lg">★★★★★</span>
-              <span className="block text-xs font-bold text-muted uppercase mt-1">
+              <span className="block mt-1 text-xs font-bold uppercase text-muted">
                 January, 2023 • Lisa Vigorito
               </span>
             </div>

@@ -1,11 +1,9 @@
 "use client";
 import Link from "next/link";
-// import NavButton from "./NavButton";
 import NavLogo from "./NavLogo";
 import Hamburger from "hamburger-react";
 import { useEffect, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
-import { FaArrowRightLong } from "react-icons/fa6";
 import SecondaryButton from "@/components/common/SecondaryButton";
 
 const Navbar = () => {
@@ -44,14 +42,14 @@ const Navbar = () => {
   ];
 
   return (
-    <header className="w-full z-50 sticky top-0 left-0">
+    <header className="sticky top-0 left-0 z-50 w-full">
       {/* Desktop Navbar */}
       <div
         className={`hidden md:block transition-colors duration-500 ${
           scrolled ? "shadow-md bg-secondary" : "bg-transparent"
         }`}
       >
-        <div className="container flex justify-between items-center px-6 py-3">
+        <div className="container flex items-center justify-between px-6 py-3">
           <NavLogo />
           <div className="flex items-center gap-6">
             <nav aria-label="Main navigation">
@@ -81,7 +79,7 @@ const Navbar = () => {
           }`}
         >
           <NavLogo />
-          <div className="flex justify-end items-center gap-1">
+          <div className="flex items-center justify-end gap-1">
             <Hamburger
               size={24}
               duration={0.4}
@@ -98,7 +96,7 @@ const Navbar = () => {
         {/* Overlay */}
         {isOpen && (
           <div
-            className="fixed inset-0 bg-black opacity-40 z-40"
+            className="fixed inset-0 z-40 bg-black opacity-40"
             onClick={() => setOpen(false)}
           />
         )}
@@ -117,8 +115,7 @@ const Navbar = () => {
               <Link
                 key={data.id}
                 href={data.link}
-                // className="text-base font-medium hover:font-semibold focus:outline-none focus:ring-2 focus:ring-primary"
-                className={`text-muted uppercase ${
+                className={`text-muted uppercase focus:outline-none ${
                   pathname === data.link
                     ? "font-bold border-b-2 border-purple"
                     : "font-semibold"

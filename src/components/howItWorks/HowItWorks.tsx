@@ -3,9 +3,9 @@ import PrimaryButton from "../common/PrimaryButton";
 const HowItWorks = () => {
   return (
     <section className="py-10 md:py-20">
-      <div className="container mx-auto px-6">
+      <div className="container px-6 mx-auto">
         <div className="mb-[80px] text-center animate-fadeInUp">
-          <span className="eyebrow bg-white text-purple border-2 border-purple">
+          <span className="bg-white border-2 eyebrow text-purple border-purple">
             The 10-Step Implementation
           </span>
 
@@ -22,7 +22,7 @@ const HowItWorks = () => {
         </div>
 
         <div className="machine-list">
-          <div className="step-block relative mb-10 opacity-0 animate-fadeInUp blue-step">
+          <div className="relative mb-10 opacity-0 step-block animate-fadeInUp blue-step">
             <div className="step-dot absolute -left-[54px] top-[5px] w-[28px] h-[28px] rounded-full bg-white border-[4px] border-blue z-[2]"></div>
 
             <div
@@ -50,7 +50,7 @@ const HowItWorks = () => {
             </div>
           </div>
 
-          <div className="step-block relative mb-10 opacity-0 animate-fadeInUp purple-step">
+          <div className="relative mb-10 opacity-0 step-block animate-fadeInUp purple-step">
             <div className="step-dot absolute -left-[54px] top-[5px] w-[28px] h-[28px] rounded-full bg-white border-[4px] border-purple z-[2]"></div>
 
             <div
@@ -71,14 +71,14 @@ const HowItWorks = () => {
               </h3>
 
               <p className="text-[1.1rem] text-muted">
-                Servers are like people; they don&apos;t trust strangers. we run
+                Servers are like people; they don&apos;t trust strangers. We run
                 a 14-day handshake protocol to &quot;warm up&quot; your domains.
                 We earn our way into the primary inbox.
               </p>
             </div>
           </div>
 
-          <div className="step-block relative mb-10 opacity-0 animate-fadeInUp purple-step">
+          <div className="relative mb-10 opacity-0 step-block animate-fadeInUp purple-step">
             <div className="step-dot absolute -left-[54px] top-[5px] w-[28px] h-[28px] rounded-full bg-white border-[4px] border-green z-[2]"></div>
 
             <div
@@ -106,7 +106,7 @@ const HowItWorks = () => {
             </div>
           </div>
 
-          <div className="step-block relative mb-10 opacity-0 animate-fadeInUp purple-step">
+          <div className="relative mb-10 opacity-0 step-block animate-fadeInUp purple-step">
             <div className="step-dot absolute -left-[54px] top-[5px] w-[28px] h-[28px] rounded-full bg-white border-[4px] border-orange z-[2]"></div>
 
             <div
@@ -134,7 +134,7 @@ const HowItWorks = () => {
             </div>
           </div>
 
-          <div className="step-block relative mb-10 opacity-0 animate-fadeInUp purple-step">
+          <div className="relative mb-10 opacity-0 step-block animate-fadeInUp purple-step">
             <div className="step-dot absolute -left-[54px] top-[5px] w-[28px] h-[28px] rounded-full bg-white border-[4px] border-blue z-[2]"></div>
 
             <div
@@ -162,7 +162,7 @@ const HowItWorks = () => {
             </div>
           </div>
 
-          <div className="step-block relative mb-10 opacity-0 animate-fadeInUp purple-step">
+          <div className="relative mb-10 opacity-0 step-block animate-fadeInUp purple-step">
             <div className="step-dot absolute -left-[54px] top-[5px] w-[28px] h-[28px] rounded-full bg-white border-[4px] border-purple z-[2]"></div>
 
             <div
@@ -190,7 +190,7 @@ const HowItWorks = () => {
             </div>
           </div>
 
-          <div className="step-block relative mb-10 opacity-0 animate-fadeInUp purple-step">
+          <div className="relative mb-10 opacity-0 step-block animate-fadeInUp purple-step">
             <div className="step-dot absolute -left-[54px] top-[5px] w-[28px] h-[28px] rounded-full bg-white border-[4px] border-green z-[2]"></div>
 
             <div
@@ -219,7 +219,7 @@ const HowItWorks = () => {
             </div>
           </div>
 
-          <div className="step-block relative mb-10 opacity-0 animate-fadeInUp purple-step">
+          <div className="relative mb-10 opacity-0 step-block animate-fadeInUp purple-step">
             <div className="step-dot absolute -left-[54px] top-[5px] w-[28px] h-[28px] rounded-full bg-white border-[4px] border-orange z-[2]"></div>
 
             <div
@@ -247,7 +247,7 @@ const HowItWorks = () => {
             </div>
           </div>
 
-          <div className="step-block relative mb-10 opacity-0 animate-fadeInUp purple-step">
+          <div className="relative mb-10 opacity-0 step-block animate-fadeInUp purple-step">
             <div className="step-dot absolute -left-[54px] top-[5px] w-[28px] h-[28px] rounded-full bg-white border-[4px] border-purple z-[2]"></div>
 
             <div
@@ -275,7 +275,7 @@ const HowItWorks = () => {
             </div>
           </div>
 
-          <div className="step-block relative mb-10 opacity-0 animate-fadeInUp purple-step">
+          <div className="relative mb-10 opacity-0 step-block animate-fadeInUp purple-step">
             <div className="step-dot absolute -left-[54px] top-[5px] w-[28px] h-[28px] rounded-full bg-white border-[4px] border-green z-[2]"></div>
 
             <div
@@ -296,16 +296,16 @@ const HowItWorks = () => {
               </h3>
 
               <p className="text-[1.1rem] text-muted">
-                Once we have proof of resonance, we scale from 500 to 5,000
-                sends. This is how you win the game of ownership—by owning a
-                machine that produces results without you.
+                First, we have proof that it&apos;s working. Then, we pour gas
+                on the fire. That&apos;s the whole game: building a machine that
+                prints cash while you sleep.
               </p>
             </div>
           </div>
         </div>
 
         <div className="hard-sell-gradient-border mt-20 py-20 px-4 md:px-10 lg:px-20 rounded-[60px] text-center animate-fadeInUp">
-          <span className="eyebrow mt-4 text-orange bg-mutedOrange px-4">
+          <span className="px-4 mt-4 eyebrow text-orange bg-mutedOrange">
             The Final Decision
           </span>
 
@@ -315,7 +315,7 @@ const HowItWorks = () => {
             Success in business isn&apos;t about working harder...
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-10 px-4">
+          <div className="grid grid-cols-1 gap-10 px-4 mt-10 md:grid-cols-2">
             <div className="py-8 px-4 md:p-10 rounded-[40px] text-left bg-[#f8fafc] border border-[#e2e8f0] space-y-2 md:space-y-4">
               <span className="text-[0.85rem] font-extrabold text-[#94a3b8]">
                 PATH A: THE GRIND
@@ -324,19 +324,19 @@ const HowItWorks = () => {
               <h4>Keep guessing.</h4>
 
               <ul className="space-y-4">
-                <li className="flex gap-3 items-start text-">
+                <li className="flex items-start gap-3 text-">
                   <span className="text-red-500">✕ </span> Manual outreach 20+
                   hrs/week.
                 </li>
-                <li className="flex gap-3 items-start">
+                <li className="flex items-start gap-3">
                   <span className="text-red-500">✕ </span> Burning your domain
                   reputation.
                 </li>
-                <li className="flex gap-3 items-start">
+                <li className="flex items-start gap-3">
                   <span className="text-red-500">✕ </span> Inconsistent,
                   &quot;unpredictable&quot; pipeline.
                 </li>
-                <li className="flex gap-3 items-start">
+                <li className="flex items-start gap-3">
                   <span className="text-red-500">✕</span> Competing on price
                   with robots.
                 </li>
@@ -355,19 +355,19 @@ const HowItWorks = () => {
               <h4>Build the system</h4>
 
               <ul className="space-y-4">
-                <li className="flex gap-3 items-start">
+                <li className="flex items-start gap-3">
                   <span className="text-green">✓</span> 10-step humanoid
                   infrastructure.
                 </li>
-                <li className="flex gap-3 items-start">
+                <li className="flex items-start gap-3">
                   <span className="text-green">✓</span> Predictable meetings on
                   autopilot.
                 </li>
-                <li className="flex gap-3 items-start">
+                <li className="flex items-start gap-3">
                   <span className="text-green">✓</span> Strategic dominance in
                   your niche.
                 </li>
-                <li className="flex gap-3 items-start">
+                <li className="flex items-start gap-3">
                   <span className="text-green">✓</span> Absolute time freedom as
                   an owner.
                 </li>
@@ -393,18 +393,6 @@ const HowItWorks = () => {
             <div className="md:text-[2.2rem] font-extrabold text-green my-8">
               You are paying a $60,000/year Incompetence Tax.
             </div>
-            {/* 
-            <a
-              href="#contact"
-              className="inline-block bg-purple text-white md:px-16 py-6 rounded-[20px]
-                  font-extrabold text-[1.5rem]
-                  shadow-[0_20px_40px_rgba(169,117,255,0.4)]
-                  animate-pulseGlow
-                  transition-all duration-300
-                  hover:-translate-y-2 hover:scale-105 hover:brightness-110"
-            >
-              Build My Machine Now
-            </a> */}
             <PrimaryButton />
             <div className="mt-[50px] opacity-50 text-[1rem] italic">
               We stole that &quot;incompetence tax&quot; thing from The Mighty
